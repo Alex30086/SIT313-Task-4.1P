@@ -1,0 +1,33 @@
+.Tutorial-cards {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.Tutorial-title {
+  text-align: center;
+}
+
+.tutorialCard {
+  display: flex; 
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: white;
+}
+
+.Tutorial-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Tutorial-button{
+  display: block;
+  margin: 30px auto;
+  padding: 15px 30px;
+  background-color: lightgray;
+  border-radius: 30px;
+}

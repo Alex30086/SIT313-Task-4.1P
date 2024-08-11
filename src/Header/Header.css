@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #00dcb8;
+}
+
+#logo h3 {
+    margin: 0;
+}
+
+.searchBar input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.button li {
+    margin-left: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.button a:hover {
+    text-decoration: underline;
+}
+
+.image01 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
